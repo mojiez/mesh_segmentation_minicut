@@ -1,0 +1,2 @@
+[console_scripts]
+segment_mesh = mesh_segmenter.scripts.segment:main

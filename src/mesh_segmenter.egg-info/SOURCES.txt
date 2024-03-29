@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/mesh_segmenter/graph.py
+src/mesh_segmenter.egg-info/PKG-INFO
+src/mesh_segmenter.egg-info/SOURCES.txt
+src/mesh_segmenter.egg-info/dependency_links.txt
+src/mesh_segmenter.egg-info/entry_points.txt
+src/mesh_segmenter.egg-info/top_level.txt
