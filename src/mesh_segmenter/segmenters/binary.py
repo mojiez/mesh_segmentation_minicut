@@ -191,6 +191,7 @@ class BinarySegmenter:
         # TODO: fuzziness on borders
         logging.info("Segment colours update completed.")
 
+    # call方法是python中的一个特殊方法，它允许对象实例像函数一样被调用！
     def __call__(self, mesh: Mesh, dual_graph: DualGraph) -> Mesh:
         """Segmented mesh with coloured seg  ments."""
         mesh, dual_graph = deepcopy(mesh), deepcopy(dual_graph)
