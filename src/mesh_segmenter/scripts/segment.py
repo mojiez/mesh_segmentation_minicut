@@ -40,6 +40,7 @@ def _parse_args() -> argparse.Namespace:
         "--num_levels",
         type=int,
         default=1,
+        # 分割的等级 默认是一级 如果是2的话应该是分成4个部分？
         help="Number of segmentation levels for the binary segmenter.",
     )
     parser.add_argument(
